@@ -1,0 +1,30 @@
+#yemek  a{
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+    border-radius: 5px;
+ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#yemek {
+    background-color: rgb(8, 126, 222);
+    width: 130px;
+    height: 30px;
+    margin-bottom:5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+div i {
+    margin-right: 5px;
+}
+#yemek:hover {
+    background-color: black;
+    transition: 1000ms;
+    transform: scale(1.1);
+}
+#container {
+    display: flex;
+    flex-direction: row;
+}
