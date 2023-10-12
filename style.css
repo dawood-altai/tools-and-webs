@@ -1,3 +1,10 @@
+body {
+    margin: 0px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+}
 #yemek  a{
     color: rgb(247, 247, 247);
     text-decoration: none;
@@ -7,7 +14,7 @@
 }
 #yemek {
     background-color: rgb(8, 126, 222);
-    width: 130px;
+    width: 150px;
     height: 30px;
     margin-bottom:5px;
     border-radius: 5px;
@@ -19,12 +26,34 @@
 div i {
     margin-right: 5px;
 }
-#yemek:hover {
+#yemek:hover , .learn:hover {
     background-color: black;
     transition: 1000ms;
     transform: scale(1.1);
 }
-#container {
+
+.container1, .container2 {
     display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.learn {
+    background-color: rgb(70, 22, 148);
+    width: 150px;
+    height: 30px;
+    margin-bottom:5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
+}
+
+.learn a{
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+    border-radius: 5px;
+ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
